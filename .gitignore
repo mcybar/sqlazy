@@ -1,0 +1,22 @@
+.DS_Store
+.codex/
+exportedsql/
+nw_mysql_dump.zip
+
+# Editor and IDE state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local env files
+.env
+.env.*
+
+# Runtime logs and temp files
+*.log
+tmp/
