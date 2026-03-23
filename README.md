@@ -19,7 +19,14 @@ Project intent is summarized in `docs/rivy-vision-mission.md`.
 
 ## Quick Start
 
-Download the SQL dump archive from Beaver and place it at the repository root as `nw_mysql_dump.zip`.
+Download the SQL dump archive from Beaver:
+
+- Google Drive file: <https://drive.google.com/file/d/1KJWdSGJ67DCwuxcWepZM2jJXXTphTnuw/view?usp=drive_link>
+
+After downloading:
+
+1. Save the file in the repository root.
+2. Rename it to `nw_mysql_dump.zip` if needed.
 
 Inspect the archive before extracting it:
 
