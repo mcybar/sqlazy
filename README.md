@@ -19,26 +19,14 @@ Project intent is summarized in `docs/rivy-vision-mission.md`.
 
 ## Quick Start
 
-Download the SQL dump archive from Beaver:
-
-- Google Drive file: <https://drive.google.com/file/d/1KJWdSGJ67DCwuxcWepZM2jJXXTphTnuw/view?usp=drive_link>
-
-After downloading:
-
-1. Save the file in the repository root.
-2. Rename it to `nw_mysql_dump.zip` if needed.
-
-Inspect the archive before extracting it:
+Download and unzip the SQL dump archive from the command line:
 
 ```bash
-unzip -l nw_mysql_dump.zip
+curl -L "https://drive.usercontent.google.com/download?id=1KJWdSGJ67DCwuxcWepZM2jJXXTphTnuw&export=download&confirm=t" -o nw_mysql_dump.zip && unzip -l nw_mysql_dump.zip && unzip nw_mysql_dump.zip
 ```
 
-Create the `exportedsql/` directory by extracting the archive:
-
-```bash
-unzip nw_mysql_dump.zip
-```
+If you prefer to download it manually, use the Google Drive file:
+- <https://drive.google.com/file/d/1KJWdSGJ67DCwuxcWepZM2jJXXTphTnuw/view?usp=drive_link>
 
 If the archive extracts into a different folder name, rename it to `exportedsql/` so the repository scripts and examples match the expected layout.
 
